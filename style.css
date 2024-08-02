@@ -1,0 +1,442 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+.all-section {
+    border: 5px solid red;
+    margin: 50px 200px;
+}
+
+
+/* section-1  */
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1-1 h1 {
+    font-size: 45px;
+}
+
+.section-1-2 {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.section-1-2 li {
+    list-style: none;
+}
+
+.section-1-2-1 {
+    display: flex;
+    gap: 50px;
+}
+
+.bar {
+    display: none;
+}
+
+/* section-2 starts */
+
+.section-2 {
+    text-align: center;
+
+    margin: 50px 120px;
+}
+
+.section-2-1 h1 {
+    font-size: 64px;
+}
+
+.section-2-1 p {
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.btn-1 {
+
+    color: white;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* section-3 */
+.section-3 img {
+    width: 100%;
+}
+
+
+
+/* section-4  */
+
+.section-4-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.section-4-1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.section-4-1-2 h1 {
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+.section-4-1-2 p {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.orange {
+    color: rgb(255, 172, 19);
+}
+
+.silver {
+    color: rgb(134, 134, 134);
+}
+
+
+
+/* section-5 */
+.section-5 {
+    margin-top: 150px;
+}
+
+.section-5-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5-1-1 h1 {
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.section-5-1-1 p {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.section-5-1-1 div {
+    margin-bottom: 30px;
+
+}
+
+
+.section-5-1-1-1 {
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: .1px .1px 6px;
+
+}
+
+.section-5-1-1-1 h2 {
+    font-size: 32px;
+
+}
+
+.section-5-1-1-2 {
+    margin-left: 50px;
+}
+
+
+/* section-6  */
+.section-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+/* section-7  */
+
+.section-7 {
+    text-align: center;
+    margin: 0px 150px;
+    padding: 0px;
+}
+
+.section-7 h1 {
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+.section-7 p {
+    font-size: 24px;
+}
+
+
+
+/* section-8 */
+.section-8-1 {
+    text-align: center;
+    display: grid;
+    gap: 125px;
+    margin: 30px 100px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.section-8-1-1 {
+    padding: 30px;
+    border: 3px solid rgb(185, 185, 185);
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+
+    .all-section {
+        border: 5px solid red;
+        margin: 16px;
+    }
+
+    /* section-1  */
+    .section-1-2-1 {
+        display: none;
+    }
+
+    .bar {
+        display: inline;
+    }
+
+    .section-1-1 h1 {
+        font-size: 24px;
+    }
+
+    .section-1-2 {
+        display: flex;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+
+    /* section-2 starts */
+
+    .section-2 {
+        text-align: center;
+        margin: 32px;
+        margin-top: 50px;
+    }
+
+    .section-2-1 h1 {
+        font-size: 32px;
+        color: #3f2200;
+    }
+
+    .section-2-1 p {
+        font-size: 14px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        text-align: justify;
+
+    }
+
+    .btn-1 {
+
+        color: white;
+        background-color: #FF900E;
+        border: none;
+        border-radius: 6px;
+        padding: 12px 18px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+
+    /* section-3 */
+    .section-3 img {
+        width: 100%;
+    }
+
+
+    /* section-4  */
+
+    .section-4-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+        margin-top: 100px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .section-4-1-1-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+
+    .section-4-1-2 h1 {
+        font-size: 32px;
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+
+    .section-4-1-2 p {
+        font-size: 16px;
+        margin-bottom: 14px;
+        text-align: justify;
+    }
+
+    .orange {
+        color: rgb(255, 172, 19);
+    }
+
+    .silver {
+        color: rgb(134, 134, 134);
+    }
+
+
+
+    /* section-5 */
+    .section-5 {
+        margin-top: 50px;
+    }
+
+    .section-5-info {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .section-5-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+    }
+
+    .section-5-1-1 h1 {
+        font-size: 30px;
+        margin-bottom: 16px;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .section-5-1-1 p {
+        font-size: 16px;
+        margin-bottom: 16px;
+        text-align: justify;
+
+    }
+
+    .section-5-1-1 div {
+        margin-bottom: 20px;
+
+    }
+
+
+    .section-5-1-1-1 {
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: .1px .1px 6px;
+
+    }
+
+    .section-5-1-1-1 h2 {
+        font-size: 20px;
+
+    }
+
+
+
+    .section-5-1-1-2 img {
+        width: 100%;
+    }
+
+
+    /* section-6  */
+    .section-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 75px;
+    }
+
+    /* section-7  */
+
+    .section-7 {
+        text-align: center;
+        margin: 16px;
+        padding: 0px;
+    }
+
+    .section-7 h1 {
+        font-size: 28px;
+    }
+
+    .section-7 p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+
+
+    /* section-8 */
+    .section-8-1 {
+        text-align: center;
+        display: grid;
+        gap: 25px;
+        margin: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-8-1-1 {
+        padding: 30px;
+        border: 3px solid rgb(185, 185, 185);
+        border-radius: 8px;
+        background-color: rgb(243, 243, 243);
+    }
+
+
+
+
+
+}
