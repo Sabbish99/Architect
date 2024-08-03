@@ -492,7 +492,7 @@
     /* section-10 */
     .section-10 {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         text-align: center;
         margin: 16px;
@@ -501,7 +501,7 @@
     }
 
     .section-10 img {
-        width: 150px;
+        width: 75px;
         border: 2px solid rgb(211, 211, 211);
         padding: 10px 30px;
         border-radius: 8px;
@@ -774,7 +774,7 @@
     }
 
     .section-10 img {
-        width: 150px;
+        width: 80px;
         border: 2px solid rgb(211, 211, 211);
         padding: 10px 30px;
         border-radius: 8px;
@@ -1040,14 +1040,13 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
-
         margin: 16px;
         gap: 10px;
         margin-bottom: 100px;
     }
 
     .section-10 img {
-        width: 150px;
+        width: 80px;
         border: 2px solid rgb(211, 211, 211);
         padding: 10px 30px;
         border-radius: 8px;
